@@ -302,8 +302,8 @@ hr {
 	text-decoration: none;
 }
 
-#teach-landing #subheader, #teach-landing #main, #teach-header, 
-#teach-main, #new-service #subheader, #new-service #main, #new-category #subheader, 
+#teach-landing #subheader, #teach-landing #main, #teach-header,
+#teach-main, #new-service #subheader, #new-service #main, #new-category #subheader,
 #new-category #main {
 	position: relative;
 	top: -31px;
@@ -466,7 +466,7 @@ ul{
 	top: 75px;
 	left: 199px;
 	height: 33px;
-	background-color: #585b5b;
+	/*background-color: #585b5b;*/
 }
 
 .navbar-brand {
@@ -479,7 +479,7 @@ ul{
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 700;
-	color: #FFF;
+	/*color: #FFF;*/
 }
 
 .navbar-nav li a:hover{
@@ -922,15 +922,15 @@ legend {
 }
 
 #footer-menu {
-	background-color: #585b5b;
+	/*background-color: #585b5b;*/
 	font-weight: 700;
 	margin-top: 25px;
 	height: 33px;
-	color: #FFF;
+	/*color: #FFF;*/
 }
 
 footer a {
-	color: #FFF;
+	/*color: #FFF;*/
 }
 
 #credits {
