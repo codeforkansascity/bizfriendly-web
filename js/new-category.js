@@ -42,6 +42,11 @@ var newCategory = (function (newCategory) {
     $.getJSON(config.bfUrl+config.bfApiVersion+'/categories/'+categoryId, function(response){
       $("#new-skill-name").val(response.name);
       $("#new-skill-description").val(response.description);
+      if (response.state == "published") {
+        $("#submit").click(function(){
+         _submitClicked("published")
+        });
+      }
     });
   }
 
