@@ -907,7 +907,7 @@ var teach = (function (teach) {
         _saveCurrentStep();
         _cleanUpStepsHTML();
         if (editingLesson) {
-          _updateLesson("submitted");
+          _updateLesson("published");
         } else {
           _checkForLesson("submitted");
         }
