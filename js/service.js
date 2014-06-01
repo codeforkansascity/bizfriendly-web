@@ -42,7 +42,7 @@ var service = (function (service) {
     if (config.debug) console.log(service);
     $("#service-icon").attr("src",service.icon);
     $("#service-name").text(service.name);
-    $("#service-url").text(service.url);
+    $("#service-url").text(service.url).attr("href", service.url);
     $("#service-description").html(service.long_description);
     $("#tips").html(service.tips)
     $("#additional-resources").html(service.additional_resources);
