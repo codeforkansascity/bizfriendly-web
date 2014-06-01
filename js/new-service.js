@@ -95,6 +95,12 @@ var newService = (function (newService) {
       $("#category-id").val(response.category_id);
       // $('.selectpicker').selectpicker('refresh');
 
+     if (response.state == "published") {
+        $("#submit").click(function(){
+         _submitClicked("published")
+        });
+      }
+
     });
   }
 
